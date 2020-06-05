@@ -1,0 +1,15 @@
+Package: UScensus2010blk
+Type: Package
+Title: US Census 2010 Block Spatial and Demographic Data
+Version: 1.00
+Date: 2011-11-22
+Author: Zack W. Almquist<almquist@uci.edu>
+Maintainer: Zack W. Almquist <almquist@uci.edu>
+Description: US 2010 Census Block shapefiles and additional demographic data from the SF1 100 percent files. This data set contains polygon files in lat/lon coordinates and the corresponding demographic data for a number of different variables. 
+License: GPL Version 2 or newer
+Depends: R (>= 3.5.0), maptools, sp, foreign, methods, grDevices, base,
+        stats, utils
+LazyLoad: yes
+URL: http://lakshmi.calit2.uci.edu/census2000/
+Packaged: 2020-06-05 20:17:52 UTC; zackalmquist
+NeedsCompilation: no
